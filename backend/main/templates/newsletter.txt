@@ -1,0 +1,7 @@
+Hola {{ usuario.nombre }} {{ usuario.apellido }}!
+
+{% for producto in productos %}
+    {{ producto}}
+{% endfor%}
+
+Saludos cordiales
